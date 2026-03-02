@@ -1,8 +1,13 @@
 # Binary
-sqlight
+/sqlight
 
 # Test databases
 testdata/sample.db
+testdata/sample.db-shm
+testdata/sample.db-wal
+
+# VHS
+/*.tape
 
 # Go
 *.exe
