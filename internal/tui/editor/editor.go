@@ -123,7 +123,7 @@ func (m Model) View() string {
 	}
 
 	title := m.styles.Title.Render("SQL Editor") + "  " +
-		lipgloss.NewStyle().Foreground(lipgloss.Color("8")).Render("alt+enter to execute")
+		lipgloss.NewStyle().Foreground(lipgloss.Color("8")).Render("alt+enter / F5 to execute")
 
 	content := title + "\n" + m.textarea.View()
 

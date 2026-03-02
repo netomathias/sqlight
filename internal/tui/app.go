@@ -338,7 +338,7 @@ func (a App) helpView() string {
 		{"n/p", "Next/prev page"},
 		{"enter", "Select table"},
 		{"ctrl+e", "Toggle SQL editor"},
-		{"alt+enter", "Execute SQL"},
+		{"alt+enter/F5", "Execute SQL"},
 		{"e", "Edit cell"},
 		{"i", "Insert row"},
 		{"d", "Delete row"},

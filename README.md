@@ -51,7 +51,7 @@ Supported file extensions: `.db`, `.sqlite`, `.sqlite3`
 | `enter`          | Select table         |
 | `n`/`p`          | Next/prev page       |
 | `ctrl+e`         | Toggle SQL editor    |
-| `alt+enter`      | Execute SQL query    |
+| `alt+enter`/`F5` | Execute SQL query    |
 | `e`              | Edit cell            |
 | `i`              | Insert row           |
 | `d`              | Delete row           |

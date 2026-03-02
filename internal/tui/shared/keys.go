@@ -99,8 +99,8 @@ func DefaultKeyMap() KeyMap {
 			key.WithHelp("ctrl+e", "SQL editor"),
 		),
 		ExecSQL: key.NewBinding(
-			key.WithKeys("alt+enter"),
-			key.WithHelp("alt+enter", "execute SQL"),
+			key.WithKeys("alt+enter", "f5"),
+			key.WithHelp("alt+enter/F5", "execute SQL"),
 		),
 		EditCell: key.NewBinding(
 			key.WithKeys("e"),
